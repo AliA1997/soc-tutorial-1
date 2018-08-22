@@ -1,0 +1,22 @@
+.register-form {
+    display: grid;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    height: 50%;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form > * {
+    grid-row: auto;
+}
+label {
+    margin-top: 1%;
+    font-size: 1.5em;
+}
+input {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 50%;
+}
